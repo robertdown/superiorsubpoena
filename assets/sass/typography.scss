@@ -15,9 +15,17 @@ body {
 body,
 input,
 textarea {
-	font-family: 'Vollkorn', Georgia, serif;
+	font-family: var(--f-sans-serif);
 	color: #3A4145;
 	text-rendering: geometricPrecision;
+}
+
+.site-title {
+	font-family: var(--f-serif);
+	font-weight: 400;
+	letter-spacing: 0.5em;
+	font-size: 1.25em;
+	text-transform: uppercase;
 }
 
 label,
@@ -27,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Quattrocento', Georgia, serif;
+	font-family: var(--f-serif);
 	font-weight: 400;
 	text-transform: uppercase;
 }

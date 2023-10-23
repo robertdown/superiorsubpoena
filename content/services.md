@@ -3,30 +3,29 @@ title: Services
 call_to_action: Contact
 large_header: false
 menu:
-  main:
-    weight: 2
   footer:
     weight: 3
 ---
 
 Our specialised team has the skill and experience to provide a range of services. The utmost care is taken with all our work. The main streams of work we perform are as follows:
 
-### Property
+## Standard Process Service
 
-The first contact with law for many people is when buying a first home. We can assist you through this process, managing the details and offering advice. When or if the time comes, we'll also assist with selling your home.
+Our core service includes serving legal documents such as summonses, complaints, subpoenas, and other court-related documents. Trust our experienced team to handle the process with efficiency and precision.
 
-We have expertise in the consent process for new developments and improvements, as well as helping you manage assets through trusts.
+## Rush and Priority Service
 
-![Property image](https://unsplash.it/960/350?image=946)
+When time is of the essence, we offer rush and priority service options to ensure your documents are served quickly and accurately.
 
-### Employment
+## Stakeouts and Surveillance
 
-If you're looking to employ or be employed, we offer solid advice and assistance with creating and reading agreements. We have a proven track record handling disputes.
+In cases where the subject's location is challenging to ascertain, we can conduct stakeouts and surveillance to increase the likelihood of successful process service.
 
-![Employment image](https://unsplash.it/960/350?image=668)
+## Skip Tracing
 
-### Business
+If the individual's whereabouts are unknown, our skip tracing services can help locate them efficiently.
 
-From structuring and mergers to shareholder agreements, we are here to assist you when starting, buying, running or selling your business.
+## Notary Services
 
-![Business image](https://unsplash.it/960/350?image=376)
+We provide notary services for legal documents, ensuring all necessary signatures are verified and acknowledged.
+

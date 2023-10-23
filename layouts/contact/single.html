@@ -12,6 +12,7 @@
 				<label>Email Address</label>
 				<p class="contact-info"><a href="mailto:{{ $.Site.Data.company.contact_email_address }}">{{ $.Site.Data.company.contact_email_address }}</a></p>
 
+				{{ if $.Site.Data.company.post_address }}
 				<label>Postal Address</label>
 				<address class="contact-info">
 					{{ $postal_address_parts := split $.Site.Data.company.postal_address "," }}
@@ -28,10 +29,11 @@
 						{{ $part }}
 					{{ end }}
 				</address>
+				{{ end }}
 			</div>
 
 			<div class="column">
-				<form method="post" action="/contact-success/">
+				<form method="POST" action="https://formspree.io/f/mleyznpa">
 					<label for="email_address">Email Address</label>
 					<input id="email_address"type="text" name="email">
 
@@ -41,9 +43,7 @@
 					<label for="message">Message</label>
 					<textarea id="message" name="message"></textarea>
 
-					<input type="hidden" name="_to" value="{{ $.Site.Data.company.contact_email_address }}">
 					<input type="text" name="_gotcha" style="display: none;">
-
 					<input type="submit" value="Send Message">
 				</form>
 			</div>

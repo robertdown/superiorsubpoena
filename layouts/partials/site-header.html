@@ -1,7 +1,7 @@
-<header style="background-image: url('{{ $.Site.Params.backgroundImagePath }}');" {{ if .Params.large_header }}class="main-hero"{{ end }}>
+<div class="site-banner">
 	<div class="container">
-		<h1><a href="/">{{ $.Site.Data.company.title }}</a></h1>
-		<nav>
+		<h1 class="site-title"><a href="/">{{ $.Site.Data.company.title }}</a></h1>
+		<nav class="site-nav">
 			{{ if .Site.Menus.main }}
 				<ul>
 					{{ $currentPage := . }}
@@ -13,5 +13,10 @@
 				</ul>
 			{{ end }}
 		</nav>
+	</div>
+</div>
+<header style="background-image: url('{{ $.Site.Params.backgroundImagePath }}');" {{ if .Params.large_header }}class="main-hero"{{ end }}>
+	<div class="container">
+		&nbsp;
 	</div>
 </header>
