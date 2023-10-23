@@ -15,7 +15,7 @@
 		</nav>
 	</div>
 </div>
-<header style="background-image: url('{{ $.Site.Params.backgroundImagePath }}');" {{ if .Params.large_header }}class="main-hero"{{ end }}>
+<header style="background-image: url('{{ absURL $.Site.Params.backgroundImagePath }}');" {{ if .Params.large_header }}class="main-hero"{{ end }}>
 	<div class="container">
 		&nbsp;
 	</div>
