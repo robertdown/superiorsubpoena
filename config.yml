@@ -1,4 +1,4 @@
-baseURL: "https://superiorsubpoena.com/"
+baseURL: "https://www.superiorsubpoena.com/"
 languageCode: "en-us"
 summaryLength: 20
 disqusShortname: ""
@@ -20,10 +20,10 @@ permalinks:
 
 params:
   backgroundImagePath: "/uploads/gavel.jpg"
-  description: "Hugo template with example content for a law firm."
+  description: "Service of Process, Court Filings, Document Retrieval, Skip Tracing, and more."
   images: 
     - "siteicon.png"
-  title: "Justice Template"
+  title: "Superior Subpoena Service"
   _selectData:
     - call_to_actions: 
       - "Contact"
