@@ -45,12 +45,22 @@ header {
 .site-banner {
 	background-color: var(--clr-charcoal);
 	max-width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	
 	.container {
+
+		@media (max-width: 979px) {
+			flex-direction: column;
+		}
+		
 		display: flex;
+		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
 		margin: 0 auto;
+
+
 	}
 
 }
@@ -84,6 +94,13 @@ nav.site-nav {
 }
 
 h1.site-title  {
+
+	@media (max-width: 979px) {
+		margin: 1rem 0;
+		text-align: center;
+	}
+
+	line-height: normal;
 	display: inline-block;
 	font-size: 1em;
 }
